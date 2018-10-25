@@ -1,16 +1,36 @@
 {
-  "name": "webpack-auto-inject-version",
-  "version": "1.1.0",
-  "repository": "radswiat/webpack-auto-inject-version",
-  "description": "Webpack plugin for auto inject version from package.json",
-  "main": "dist/WebpackAutoInjectVersion.js",
-  "scripts": {
-    "start": "babel-node tools/compile.js",
-    "start:watch": "babel-node tools/compile-watch.js",
-    "eslint": "eslint ./src/**"
+  "_from": "webpack-auto-inject-version@latest",
+  "_id": "webpack-auto-inject-version@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-K4clHyVN5nOEC/2BH67Y83wP5j4=",
+  "_location": "/webpack-auto-inject-version",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "webpack-auto-inject-version@latest",
+    "name": "webpack-auto-inject-version",
+    "escapedName": "webpack-auto-inject-version",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "author": "Radoslaw Swiat",
-  "license": "ISC",
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/webpack-auto-inject-version/-/webpack-auto-inject-version-1.1.0.tgz",
+  "_shasum": "2b87251f254de673840bfd811faed8f37c0fe63e",
+  "_spec": "webpack-auto-inject-version@latest",
+  "_where": "/Users/eden/vixn/frontend",
+  "author": {
+    "name": "Radoslaw Swiat"
+  },
+  "bugs": {
+    "url": "https://github.com/radswiat/webpack-auto-inject-version/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Webpack plugin for auto inject version from package.json",
   "devDependencies": {
     "babel-cli": "^6.10.1",
     "babel-core": "^6.24.1",
@@ -39,5 +59,19 @@
     "semver": "^5.3.0",
     "webpack": "^2.3.3",
     "webpack-node-externals": "^1.5.4"
-  }
+  },
+  "homepage": "https://github.com/radswiat/webpack-auto-inject-version#readme",
+  "license": "ISC",
+  "main": "dist/WebpackAutoInjectVersion.js",
+  "name": "webpack-auto-inject-version",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radswiat/webpack-auto-inject-version.git"
+  },
+  "scripts": {
+    "eslint": "eslint ./src/**",
+    "start": "babel-node tools/compile.js",
+    "start:watch": "babel-node tools/compile-watch.js"
+  },
+  "version": "1.1.0"
 }
